@@ -28,12 +28,13 @@
     </header>
     <main>
         <section>
+            <div class="line"></div>
             <div class="about">
-                <h2>About</h2>
-                    <div>
+                <h2 class="about-heading">About</h2> 
+                    <div class="about-content">
                         <p>
                             I’m a frontend developer focused on crafting intuitive and accessible user interfaces. 
-                            My approach bridges design and development, creating cohesive and seamless user experiences. 
+                            <br/>My approach bridges design and development, creating cohesive and seamless user experiences. 
                             <br/>
                             Interestingly, my passion for coding emerged four years after 
                             I completed my BCom general degree, 
@@ -42,48 +43,52 @@
                     </div>
             </div>
         </section>
-        <section>
+        <section class="education">
+            <div class="line"></div>
             <div>
-                <h2>Education</h2>
-                <div>
-                    <p>Oct 2024 - Present 2024</p>
-                    <h3>SheCodes Responsive · Responsive </h3>  
+                <h2 class="education-heading">Education</h2> 
+                <div class="education-item">
+                    <p class="education-date">Oct 2024 - Present</p>
+                    <h3>SheCodes Responsive · Responsive</h3>
                 </div>
-                <div>
-                    <p>Sep 2024 - Sep 2024</p>
-                    <h3>SheCodes React · React </h3>
-                    <ul>
-                        <li>React Node.js</li>
+                <div class="education-item">
+                    <p class="education-date">Sep 2024 - Sep 2024</p>
+                    <h3>SheCodes React · React</h3>
+                    <ul class="education-tech">
+                        <li>React</li>
+                        <li>Node.js</li>
                     </ul>
                 </div>
-                <div>
-                    <p>Mar 2024 - Jun 2024</p>
-                    <h3>SheCodes Plus · Web development</h3>
-                    <ul>
+                <div class="education-item">
+                    <p class="education-date">Mar 2024 - Jun 2024</p>
+                    <h3>SheCodes Plus · Web Development</h3>
+                    <ul class="education-tech">
                         <li>Git</li>
-                        <li>Github</li>
+                        <li>GitHub</li>
                         <li>Hosting</li>
                     </ul>
                 </div>
-                <p>Feb 2024 - Mar 2024</p>
-                    <h3>SheCodes Basics · Introduction to coding</h3>
-                        <ul>
-                            <li>HTML 5</li>
-                            <li>CSS 5</li>
-                            <li>ES 6</li>
-                            <li>VS Code</li>
-                        </ul>
-                <div>
-                    <p>Feb 2024 - Feb 2024</p>
-                    <h3>Udemy · Master course in Project Management </h3>
-                    <ul>
+                <div class="education-item">
+                    <p class="education-date">Feb 2024 - Mar 2024</p>
+                    <h3>SheCodes Basics · Introduction to Coding</h3>
+                    <ul class="education-tech">
+                        <li>HTML 5</li>
+                        <li>CSS 5</li>
+                        <li>ES 6</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="education-item">
+                    <p class="education-date">Feb 2024 - Feb 2024</p>
+                    <h3>Udemy · Master Course in Project Management</h3>
+                    <ul class="education-tech">
                         <li>Project Management</li>
                     </ul>
                 </div>
-                <div>
-                    <p>Jan 2018 - Dec 2020</p>
-                    <h3>Eduvos · Bcom (General) </h3>
-                    <ul>
+                <div class="education-item">
+                    <p class="education-date">Jan 2018 - Dec 2020</p>
+                    <h3>Eduvos · BCom (General)</h3>
+                    <ul class="education-tech">
                         <li>Business Management</li>
                         <li>Accounting</li>
                         <li>Human Resource Management</li>
@@ -92,36 +97,34 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="side-projects">
+            <div class="line"></div>
             <div>
-                <h2>Side Projects</h2>
-                <div>
-                    <a href="https://anotherweatherapplication.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View Project" class="border border-border bg-glass p-6 rounded-lg shadow flex flex-col gap-2">
-                        <div>
-                            <h3>Weather App</h3>
-                        </div>
+                <h2 class="projects-heading">Side Projects</h2> <!-- Add a class for the heading -->
+                <div class="project">
+                    <a href="https://anotherweatherapplication.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View Project">
+                        <h3>Weather App</h3>
                     </a>
-                        <p>A simple Weather App.</p>
-                        <ul class="button-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JS</li>
-                        </ul>
-                    <a href="https://spiffy-tartufo-ac0aa8.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View Project" class="border border-border bg-glass p-6 rounded-lg shadow flex flex-col gap-2">
-                        <div>
-                            <h3>Password Generator</h3>
-                        </div>
+                    <p>A simple Weather App.</p>
+                    <ul class="project-tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <a href="https://spiffy-tartufo-ac0aa8.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="View Project">
+                        <h3>Password Generator</h3>
                     </a>
-                        <p>It is a website where you can get random passwords.</p>
-                        <ul class="button-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JS</li>
-                        </ul>
-                    
+                    <p>It is a website where you can get random passwords.</p>
+                    <ul class="project-tech">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
                 </div>
             </div>
-        </section> 
+        </section>
     </main>
 </hr>
     <footer>
